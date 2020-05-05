@@ -90,4 +90,6 @@ nvm install [version]
 https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1cbe0c836
 
 ### Using/switching to another version
-https://www.mongodb.com/blog/post/mongodbs-official-brew-tap-now-open-and-flowing
+https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-mongodb-with-homebrew
+
+
