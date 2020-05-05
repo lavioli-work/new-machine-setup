@@ -84,5 +84,10 @@ nvm ls-remote
 nvm install [version]
 ```
 
-### Mongodb Installation
+## Mongodb Installation
+
+### Installing with brew
 https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1cbe0c836
+
+### Using/switching to another version
+https://www.mongodb.com/blog/post/mongodbs-official-brew-tap-now-open-and-flowing
