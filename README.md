@@ -60,6 +60,12 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ### zsh compinit: insecure directories and files
 https://github.com/zsh-users/zsh-completions/issues/680
 
+### unable to access global packages installed when switching between different versions of node
+```
+npm link [packagen name]
+npm link @angular/cli
+```
+
 ## Install Docker
 
 ## Vscode
