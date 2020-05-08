@@ -99,3 +99,16 @@ https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1c
 https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-mongodb-with-homebrew
 
 
+## Virtual Box Installation
+https://www.virtualbox.org/wiki/Downloads
+
+### Microsoft Development VM Image Download
+https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
+
+Extract the zip file and then select Import from VirtualBox
+
+## Useful Apps
+
+###For window resizing:
+http://www.spectacleapp.com/
+
