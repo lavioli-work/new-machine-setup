@@ -112,3 +112,14 @@ Extract the zip file and then select Import from VirtualBox
 ###For window resizing:
 http://www.spectacleapp.com/
 
+## Github 2-Factor Authentication for Git Cli
+Set up a personal access token for accessing GitHub repositories - 
+I recommend giving it gist, repo, and user scope. Make sure you copy the token now as you won't be able to later
+
+## Using mongorestore for Mongo Data Dump
+Make sure app is running `mongod`
+
+To seed data from data dump:
+```
+mongorestore --db=database-name directory-with-json-bson-files
+```
