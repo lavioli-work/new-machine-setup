@@ -42,6 +42,39 @@ cd ..
 rm -rf fonts
 ```
 
+Auto suggestions for Oh My Zsh:
+
+```
+$ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+Note: $ZSH_CUSTOM/plugins path is by default ~/.oh-my-zsh/custom/plugins
+```
+Add the plugin to the list of plugins in ~/.zshrcconfiguration file :
+```
+plugins=(
+    …
+    zsh-autosuggestions
+)
+```
+Restart terminal
+
+
+Syntax highlighting:
+```
+$ brew install zsh-syntax-highlighting
+```
+
+open `~/.zshrc` and place at the end of the file
+
+```
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+restart terminal
+
+
+### Install iTerm 2 with autocomplete
+https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
+
 ## Show hidden files
 ```
 Cmd + Shift + .
