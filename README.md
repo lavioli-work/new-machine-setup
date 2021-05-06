@@ -140,8 +140,14 @@ https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
 
 Extract the zip file and then select Import from VirtualBox
 
+### Accessing mac localhost from the VM
+https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtualbox-312a3de6fedb
+
 ## Set up Multiple Github Accounts Access using SSH
 https://dev.to/worldofprasanna/manage-ssh-keys-for-multiple-github-accounts-2nf3
+
+## ITerm2 Setup Guide
+https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
 
 ## Useful Apps
 
