@@ -146,7 +146,7 @@ https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtual
 ## Set up Multiple Github Accounts Access using SSH
 https://dev.to/worldofprasanna/manage-ssh-keys-for-multiple-github-accounts-2nf3
 
-## ITerm2 Setup Guide
+## iTerm2 Setup Guide
 https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
 
 ## Useful Apps
