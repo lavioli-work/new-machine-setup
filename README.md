@@ -131,6 +131,9 @@ https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1c
 ### Using/switching to another version
 https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-mongodb-with-homebrew
 
+### When running into mongod command not found
+https://stackoverflow.com/questions/10203589/cant-use-mongo-command-shows-command-not-found-on-mac
+set `export PATH=$PATH:/usr/local/opt/mongodb-community@4.0/bin` in the .zshrc
 
 ## Virtual Box Installation
 https://www.virtualbox.org/wiki/Downloads
