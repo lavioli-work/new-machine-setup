@@ -159,7 +159,7 @@ https://dev.to/worldofprasanna/manage-ssh-keys-for-multiple-github-accounts-2nf3
 ## Useful Apps
 
 ###For window resizing:
-http://www.spectacleapp.com/
+https://rectangleapp.com/
 
 ## Github 2-Factor Authentication for Git Cli
 Set up a personal access token for accessing GitHub repositories - 
