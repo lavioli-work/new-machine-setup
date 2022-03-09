@@ -1,6 +1,9 @@
 # new-machine-setup
 This guide is used for setting up the development environment for a brand new machine (OSX)
 
+## Homebrew
+```https://docs.brew.sh/Installation```
+
 ## oh my zsh
 
 ### Mac OS: xcrun: error: invalid active developer path, missing xcrun
