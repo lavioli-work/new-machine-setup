@@ -5,8 +5,6 @@ This guide is used for setting up the development environment for a brand new ma
 ```https://brew.sh/```
 
 ## iTerm2 Setup Guide
-https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
-
 ### Install iTerm 2 with autocomplete
 https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
 
