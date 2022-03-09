@@ -4,6 +4,13 @@ This guide is used for setting up the development environment for a brand new ma
 ## Homebrew
 ```https://brew.sh/```
 
+## iTerm2 Setup Guide
+https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
+
+### Install iTerm 2 with autocomplete
+https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
+
+
 ## oh my zsh
 
 ### Mac OS: xcrun: error: invalid active developer path, missing xcrun
@@ -74,15 +81,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 restart terminal
 
-
-### Install iTerm 2 with autocomplete
-https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
-
-## Show hidden files
-```
-Cmd + Shift + .
-```
-
 ## Install nvm
 https://github.com/nvm-sh/nvm
 
@@ -138,6 +136,14 @@ https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-m
 https://stackoverflow.com/questions/10203589/cant-use-mongo-command-shows-command-not-found-on-mac
 set `export PATH=$PATH:/usr/local/opt/mongodb-community@4.0/bin` in the .zshrc
 
+### Using mongorestore for Mongo Data Dump
+Make sure app is running `mongod`
+
+To seed data from data dump:
+```
+mongorestore --db=database-name directory-with-json-bson-files
+```
+
 ## Virtual Box Installation
 https://www.virtualbox.org/wiki/Downloads
 
@@ -152,9 +158,6 @@ https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtual
 ## Set up Multiple Github Accounts Access using SSH
 https://dev.to/worldofprasanna/manage-ssh-keys-for-multiple-github-accounts-2nf3
 
-## iTerm2 Setup Guide
-https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
-
 ## Useful Apps
 
 ###For window resizing:
@@ -164,10 +167,7 @@ http://www.spectacleapp.com/
 Set up a personal access token for accessing GitHub repositories - 
 I recommend giving it gist, repo, and user scope. Make sure you copy the token now as you won't be able to later
 
-## Using mongorestore for Mongo Data Dump
-Make sure app is running `mongod`
-
-To seed data from data dump:
+## Show hidden files
 ```
-mongorestore --db=database-name directory-with-json-bson-files
+Cmd + Shift + .
 ```
