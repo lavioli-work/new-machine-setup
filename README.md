@@ -2,7 +2,7 @@
 This guide is used for setting up the development environment for a brand new machine (OSX)
 
 ## Homebrew
-```https://docs.brew.sh/Installation```
+```https://brew.sh/```
 
 ## oh my zsh
 
