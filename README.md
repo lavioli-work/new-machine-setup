@@ -169,3 +169,8 @@ I recommend giving it gist, repo, and user scope. Make sure you copy the token n
 ```
 Cmd + Shift + .
 ```
+
+## Remove Mac Shortcut Key for Cmd Shift A that conflicts with Webstorm
+```
+https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog
+```
