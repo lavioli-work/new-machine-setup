@@ -86,8 +86,14 @@ Import JSON profile using
 ### Mac OS: xcrun: error: invalid active developer path, missing xcrun
 ```https://ma.ttias.be/mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun/```
 
+### zsh compinit: insecure directories and files
+https://github.com/zsh-users/zsh-completions/issues/680
 
-## Install nvm
+
+
+## nvm
+
+### Installing nvm
 https://github.com/nvm-sh/nvm
 
 Add this to `.zshrc` if it's not already there
@@ -96,9 +102,6 @@ Add this to `.zshrc` if it's not already there
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
-
-### zsh compinit: insecure directories and files
-https://github.com/zsh-users/zsh-completions/issues/680
 
 ### unable to access global packages installed when switching between different versions of node
 ```
