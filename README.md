@@ -109,7 +109,10 @@ npm link [packagen name]
 npm link @angular/cli
 ```
 
-## Install Docker
+## Docker
+
+### Installing docker
+https://www.docker.com/get-started/
 
 ## Vscode
 
