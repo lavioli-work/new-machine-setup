@@ -78,6 +78,11 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 restart terminal
 
+### Set up iTerm text profile
+Import JSON profile using
+[profile](./iterm-text-profile.json)
+![alt text](iterm-text-profile.png)
+
 ### Mac OS: xcrun: error: invalid active developer path, missing xcrun
 ```https://ma.ttias.be/mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun/```
 
