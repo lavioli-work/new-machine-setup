@@ -11,9 +11,8 @@ https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-a
 
 ## oh my zsh
 
-### Mac OS: xcrun: error: invalid active developer path, missing xcrun
-```https://ma.ttias.be/mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun/```
-
+### Install oh my zsh
+``` sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 ### Set up spaceship/customized theme on oh my zsh
 Clone this repo:
 ```
@@ -78,6 +77,10 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 restart terminal
+
+### Mac OS: xcrun: error: invalid active developer path, missing xcrun
+```https://ma.ttias.be/mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun/```
+
 
 ## Install nvm
 https://github.com/nvm-sh/nvm
