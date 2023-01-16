@@ -136,26 +136,6 @@ nvm ls-remote
 nvm install [version]
 ```
 
-## Mongodb Installation
-
-### Installing with brew
-https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1cbe0c836
-
-### Using/switching to another version
-https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-mongodb-with-homebrew
-
-### When running into mongod command not found
-https://stackoverflow.com/questions/10203589/cant-use-mongo-command-shows-command-not-found-on-mac
-set `export PATH=$PATH:/usr/local/opt/mongodb-community@4.0/bin` in the .zshrc
-
-### Using mongorestore for Mongo Data Dump
-Make sure app is running `mongod`
-
-To seed data from data dump:
-```
-mongorestore --db=database-name directory-with-json-bson-files
-```
-
 ## Virtual Box Installation
 https://www.virtualbox.org/wiki/Downloads
 
@@ -187,4 +167,24 @@ Cmd + Shift + .
 ## Remove Mac Shortcut Key for Cmd Shift A that conflicts with Webstorm
 ```
 https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog
+```
+
+## Mongodb Installation (For local computer development, use docker cotainer whenever possible instead)
+
+### Installing with brew
+https://medium.com/better-programming/installing-mongodb-on-macos-catalina-aab1cbe0c836
+
+### Using/switching to another version
+https://stackoverflow.com/questions/30379127/how-to-install-earlier-version-of-mongodb-with-homebrew
+
+### When running into mongod command not found
+https://stackoverflow.com/questions/10203589/cant-use-mongo-command-shows-command-not-found-on-mac
+set `export PATH=$PATH:/usr/local/opt/mongodb-community@4.0/bin` in the .zshrc
+
+### Using mongorestore for Mongo Data Dump
+Make sure app is running `mongod`
+
+To seed data from data dump:
+```
+mongorestore --db=database-name directory-with-json-bson-files
 ```
