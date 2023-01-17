@@ -155,14 +155,18 @@ To seed data from data dump:
 ```
 mongorestore --db=database-name directory-with-json-bson-files
 ```
+## VMs
 
-## Virtual Box Installation
+### Virtual Box Installation
 https://www.virtualbox.org/wiki/Downloads
 
 ### Microsoft Development VM Image Download
 https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
 
 Extract the zip file and then select Import from VirtualBox
+
+### UTM
+https://docs.getutm.app/guides/windows/#cannot-run-uup_download_macossh
 
 ### Accessing mac localhost from the VM
 https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtualbox-312a3de6fedb
