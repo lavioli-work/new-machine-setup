@@ -165,7 +165,7 @@ https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
 
 Extract the zip file and then select Import from VirtualBox
 
-### UTM
+### UTM (For M1 Mac)
 https://docs.getutm.app/guides/windows/#cannot-run-uup_download_macossh
 
 ### Accessing mac localhost from the VM
