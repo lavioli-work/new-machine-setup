@@ -168,6 +168,12 @@ Cmd + Shift + .
 ```
 https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog
 ```
+## Webstorm Javascript Debugger Chrome Brower User Data Directory Set up
+https://www.jetbrains.com/help/webstorm/configuring-javascript-debugger.html#ws_js_debug_default_chrome_user_data
+To copy the chrome user data in a mac, go to `/Users/[your mac username here]/Library/Application Support/Google/Chrome`, copy the entire content
+Paste the content in the directory `/Users/[your mac username here]/Library/Application Support/JetBrains/WebStorm2023.1/chrome-user-data`.
+The directory for the chrome-user-data is what webstorm will use for all extensions and settings from the default browser. In the debugger configuration, make sure to check "Use custom user data directory".
+
 
 ## Mongodb Installation (For local computer development, use docker cotainer whenever possible instead)
 
